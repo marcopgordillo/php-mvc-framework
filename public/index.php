@@ -2,7 +2,7 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use App\core\Application;
+use marcopgordillo\phpmvc\Application;
 use App\controllers\SiteController;
 use App\controllers\AuthController;
 use App\models\User;

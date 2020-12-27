@@ -1,6 +1,6 @@
 <?php
 
-use App\core\Application;
+use marcopgordillo\phpmvc\Application;
 
 class m0001_initial
 {

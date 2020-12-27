@@ -1,10 +1,10 @@
 <?php
 /**
  * @var $model App\models\User
- * @var $this App\core\View
+ * @var $this marcopgordillo\phpmvc\View
  */
 
-use App\core\form\Form;
+use marcopgordillo\phpmvc\form\Form;
 
 $this->title = 'Register';
 ?>

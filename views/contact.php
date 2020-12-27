@@ -1,10 +1,10 @@
 <?php
 /** 
- * @var $this App\core\View
+ * @var $this marcopgordillo\phpmvc\View
  * @var $model App\models\ContactForm
  */
-use App\core\form\Form;
-use App\core\form\TextAreaField;
+use marcopgordillo\phpmvc\form\Form;
+use marcopgordillo\phpmvc\form\TextAreaField;
 
 $this->title = 'Contact Us';
 ?>

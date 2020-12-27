@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4241646969d863a77457a98bfed26f0",
+    "content-hash": "bffc3d20bd722e0e1cdfd10fbe366945",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -71,6 +71,44 @@
                 }
             ],
             "time": "2020-04-13T13:17:36+00:00"
+        },
+        {
+            "name": "marcopgordillo/php-mvc-core",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marcopgordillo/php-mvc-core.git",
+                "reference": "7b322317b98d9a2c91dd7ed9c469a9a78a5282f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marcopgordillo/php-mvc-core/zipball/7b322317b98d9a2c91dd7ed9c469a9a78a5282f2",
+                "reference": "7b322317b98d9a2c91dd7ed9c469a9a78a5282f2",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "marcopgordillo\\phpmvc\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Gordillo",
+                    "email": "6589245+marcopgordillo@users.noreply.github.com"
+                }
+            ],
+            "description": "PHP MVC Core Framework",
+            "support": {
+                "issues": "https://github.com/marcopgordillo/php-mvc-core/issues",
+                "source": "https://github.com/marcopgordillo/php-mvc-core/tree/0.2.0"
+            },
+            "time": "2020-12-27T22:28:53+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -467,7 +505,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "marcopgordillo/php-mvc-core": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

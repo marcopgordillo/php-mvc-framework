@@ -1,6 +1,6 @@
 <?php
 
-use App\core\Application;
+use marcopgordillo\phpmvc\Application;
 
 class m0002_add_password_column_to_users_table
 {

@@ -2,7 +2,7 @@
 /**
  * @var $model App\models\User
  */
-use App\core\form\Form;
+use marcopgordillo\phpmvc\form\Form;
 
 $this->title = 'Register';
 ?>

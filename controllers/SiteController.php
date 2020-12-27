@@ -2,11 +2,11 @@
 
 namespace App\controllers;
 
-use App\core\Application;
-use App\core\Request;
-use App\core\Response;
+use marcopgordillo\phpmvc\Application;
+use marcopgordillo\phpmvc\Request;
+use marcopgordillo\phpmvc\Response;
 use App\models\ContactForm;
-use App\core\Controller;
+use marcopgordillo\phpmvc\Controller;
 
 class SiteController extends Controller
 

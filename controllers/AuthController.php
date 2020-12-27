@@ -2,13 +2,13 @@
 
 namespace App\controllers;
 
-use App\core\Request;
-use App\core\Response;
-use App\core\Controller;
-use App\core\Application;
+use marcopgordillo\phpmvc\Request;
+use marcopgordillo\phpmvc\Response;
+use marcopgordillo\phpmvc\Controller;
+use marcopgordillo\phpmvc\Application;
 use App\models\User;
 use App\models\LoginForm;
-use App\core\middlewares\AuthMiddleware;
+use marcopgordillo\phpmvc\middlewares\AuthMiddleware;
 
 class AuthController extends Controller
 {
