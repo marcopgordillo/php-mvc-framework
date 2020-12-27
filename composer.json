@@ -1,0 +1,17 @@
+{
+    "name": "mgordillo/mvc_framework",
+    "authors": [
+        {
+            "name": "Marco Gordillo",
+            "email": "6589245+marcopgordillo@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./"
+        }
+    }
+}
