@@ -21,6 +21,16 @@ $config = [
 
 $app = new Application(dirname(__DIR__), $config);
 
+$app->on(Application::EVENT_BEFORE_REQUEST, function () {
+    echo "Before Request 1";
+});
+$app->on(Application::EVENT_BEFORE_REQUEST, function () {
+    echo "Before Request 2";
+});
+$app->on(Application::EVENT_AFTER_REQUEST, function () {
+    echo "After Request";
+});
+
 $app->router->get('/', [SiteController::class, 'home']);
 
 $app->router->get('/contact', [SiteController::class, 'contact']);

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bffc3d20bd722e0e1cdfd10fbe366945",
+    "content-hash": "29bbc950330cdde9a8c328fe8f1cf93c",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -74,19 +74,18 @@
         },
         {
             "name": "marcopgordillo/php-mvc-core",
-            "version": "dev-main",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marcopgordillo/php-mvc-core.git",
-                "reference": "7b322317b98d9a2c91dd7ed9c469a9a78a5282f2"
+                "reference": "623263b4ca681dac9433c704bd8a212ffceb3b50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marcopgordillo/php-mvc-core/zipball/7b322317b98d9a2c91dd7ed9c469a9a78a5282f2",
-                "reference": "7b322317b98d9a2c91dd7ed9c469a9a78a5282f2",
+                "url": "https://api.github.com/repos/marcopgordillo/php-mvc-core/zipball/623263b4ca681dac9433c704bd8a212ffceb3b50",
+                "reference": "623263b4ca681dac9433c704bd8a212ffceb3b50",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -106,9 +105,9 @@
             "description": "PHP MVC Core Framework",
             "support": {
                 "issues": "https://github.com/marcopgordillo/php-mvc-core/issues",
-                "source": "https://github.com/marcopgordillo/php-mvc-core/tree/0.2.0"
+                "source": "https://github.com/marcopgordillo/php-mvc-core/tree/1.1.0"
             },
-            "time": "2020-12-27T22:28:53+00:00"
+            "time": "2020-12-27T23:09:02+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -505,9 +504,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "marcopgordillo/php-mvc-core": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
