@@ -8,7 +8,7 @@
     ],
     "require": {
         "vlucas/phpdotenv": "^5.2",
-        "marcopgordillo/php-mvc-core": "^1.1.0"
+        "marcopgordillo/php-mvc-core": "dev-main"
     },
     "autoload": {
         "psr-4": {

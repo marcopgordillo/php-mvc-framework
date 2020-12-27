@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "29bbc950330cdde9a8c328fe8f1cf93c",
+    "content-hash": "bffc3d20bd722e0e1cdfd10fbe366945",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -74,7 +74,7 @@
         },
         {
             "name": "marcopgordillo/php-mvc-core",
-            "version": "1.1.0",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marcopgordillo/php-mvc-core.git",
@@ -86,6 +86,7 @@
                 "reference": "623263b4ca681dac9433c704bd8a212ffceb3b50",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -504,7 +505,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "marcopgordillo/php-mvc-core": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
